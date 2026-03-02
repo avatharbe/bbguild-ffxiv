@@ -1,0 +1,11 @@
+services:
+    avathar.bbguild_ffxiv.installer:
+        class: avathar\bbguild_ffxiv\game\ffxiv_installer
+
+    avathar.bbguild_ffxiv.provider:
+        class: avathar\bbguild_ffxiv\game\ffxiv_provider
+        arguments:
+            - '@avathar.bbguild_ffxiv.installer'
+            - '@ext.manager'
+        tags:
+            - { name: bbguild.game_provider }
