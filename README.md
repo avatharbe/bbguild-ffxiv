@@ -1,4 +1,5 @@
 # bbGuild - Final Fantasy XIV
+[![Tests](https://github.com/avatharbe/bbguild_ffxiv/actions/workflows/tests.yml/badge.svg)](https://github.com/avatharbe/bbguild_ffxiv/actions/workflows/tests.yml)
 
 Game plugin that adds Final Fantasy XIV support to [bbGuild](https://github.com/avandenberghe/bbguild).
 
